@@ -44,7 +44,7 @@ nav a{
     background-color: gray;
     color: black;
     width: 10rem;
-    padding: 1rem;
+    padding: 0.5rem;
     border: solid darkgray;
 }
 nav a:hover{
