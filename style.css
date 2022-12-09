@@ -59,8 +59,6 @@ nav a:hover{
 .section-container{
     margin: 0 auto;
     text-align: center;
-    width: 40rem;
-
     background-color: gray;
 
 }
@@ -84,18 +82,27 @@ nav a:hover{
 
 #about-image-background{
     background-color: cyan;
+    width: 50%;
 }
 #about-image-background img{
-    margin: 50%;
+
 }
-.info-box *{
-    background-color: white;
+#information-container{
+    width: 50%;
+    background-color: black;
+}
+.info-box{
+    /* max-width: 100%; */
+    width: 100%;
+    display: flex;
 }
 .info-title{
-    padding: 0.5rem 1rem;
+    background-color: white;
+    width: 50%;
 }
 .info{
-
+    background-color: red;
+    width:50%;
 }
 #degree-container{
     max-width: 100%;
