@@ -51,7 +51,6 @@ nav a:hover{
     /* Change the background, border, and font color */
     background-color: darkgray;
 }
-
 /* Header and Navigation */
 
 
@@ -59,11 +58,11 @@ nav a:hover{
 /* Section Class */
 .section-container{
     margin: 0 auto;
-    display: grid;
     text-align: center;
     width: 40rem;
-    height: 40rem;
+
     background-color: gray;
+
 }
 .section-title{
     font-size: 1.5rem;
@@ -73,19 +72,38 @@ nav a:hover{
 
 /* About Section */
 #about-section{
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto;
-
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 #about-section .section-title{
     background-color: red;
+    width:100%;
 }
 
 #about-image-background{
     background-color: cyan;
-    width: 100%;
 }
 #about-image-background img{
     margin: 50%;
+}
+.info-box *{
+    background-color: white;
+}
+.info-title{
+    padding: 0.5rem 1rem;
+}
+.info{
+
+}
+#degree-container{
+    max-width: 100%;
+    width: 100%;
+}
+#degree-container h3{
+
+}
+#degree-container p{
+    
 }
