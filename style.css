@@ -1,5 +1,5 @@
 *{
-    background-color: lightgray;
+    background-color: purple;
     margin: 0;
     padding: 0;
 }
@@ -60,10 +60,12 @@ nav a:hover{
     margin: 0 auto;
     text-align: center;
     background-color: gray;
-
 }
 .section-title{
     font-size: 1.5rem;
+    background-color: red;
+    width:100%;
+    padding: 2rem;
 }
 
 
@@ -73,36 +75,41 @@ nav a:hover{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    max-width: 60rem;
 }
 
 #about-section .section-title{
-    background-color: red;
-    width:100%;
+    
 }
 
 #about-image-background{
     background-color: cyan;
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 #about-image-background img{
-
+    margin: 1rem;
+    border: 1rem solid gray;
+    border-radius: 3rem;
 }
+
 #information-container{
     width: 50%;
     background-color: black;
 }
 .info-box{
-    /* max-width: 100%; */
-    width: 100%;
     display: flex;
+    width: 100%;
+    border: solid 0.5rem yellow;
 }
 .info-title{
     background-color: white;
-    width: 50%;
+    width: 100%;
 }
 .info{
-    background-color: red;
-    width:50%;
+    background-color: pink;
+    width: 100%;
 }
 #degree-container{
     max-width: 100%;
