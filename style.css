@@ -70,7 +70,8 @@ nav a:hover{
     font-size: 1.5rem;
     background-color: red;
     width:100%;
-    padding: 2rem;
+    max-width: 60rem;
+    padding: 1rem 0;
 }
 
 
@@ -187,6 +188,12 @@ nav a:hover{
 
 /* Programming section */
 #programming-section{
-    display: flex;
-    flex-wrap: wrap;
+
+}
+#programming-section .section-title{
+    width: 60rem;
+}
+#programming-button-container{
+}
+.program-button{
 }
