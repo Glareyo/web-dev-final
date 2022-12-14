@@ -159,6 +159,16 @@ nav a:hover{
 .art-button:hover{
     background: gray;
 }
+#art-button-2d:hover{
+
+}
+.art-button-container .art-button:hover ~ .art-img-container{
+    background-color: white;
+}
+#art-button-3d:hover{
+    
+}
+
 .art-img-container{
     background: green;
     width: 100%;
@@ -166,8 +176,17 @@ nav a:hover{
     display: flex;
     justify-content: center;
 }
-.art-img{
+#art-img{
+    background: red;
     padding: 5% 10%;
     width: 100%;
     max-width: 50%;
+}
+
+
+
+/* Programming section */
+#programming-section{
+    display: flex;
+    flex-wrap: wrap;
 }
