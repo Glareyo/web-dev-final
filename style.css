@@ -57,11 +57,12 @@ nav a:hover{
 
 /* Section Class */
 .section-container{
-    margin: 0 auto;
+    margin: 5rem auto;
     text-align: center;
     background-color: gray;
 }
 .section-title{
+    text-align: center;
     font-size: 1.5rem;
     background-color: red;
     width:100%;
@@ -120,4 +121,33 @@ nav a:hover{
 }
 #degree-container p{
     
+}
+
+
+
+
+
+/* Art Section */
+#art-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+#art-section .section-title{
+
+}
+#art-section img{
+
+    background: red;
+}
+.art-button-container{
+    background: yellow;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.art-button{
+    padding: 2rem 5rem;
+    margin: 1rem;
+    background: blue;
+
 }
