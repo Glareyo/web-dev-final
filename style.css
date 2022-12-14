@@ -60,6 +60,7 @@ nav a:hover{
     margin: 5rem auto;
     text-align: center;
     background-color: gray;
+    max-width: 60rem;
 }
 .section-title{
     text-align: center;
@@ -135,19 +136,24 @@ nav a:hover{
 #art-section .section-title{
 
 }
-#art-section img{
-
-    background: red;
-}
 .art-button-container{
     background: yellow;
     width: 50%;
     display: flex;
     flex-direction: column;
+    
 }
 .art-button{
-    padding: 2rem 5rem;
-    margin: 1rem;
+    padding: 10% 20%;
+    margin: 3rem;
     background: blue;
 
+}
+.art-button:hover{
+    background: gray;
+}
+.art-img{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 20%;
 }
