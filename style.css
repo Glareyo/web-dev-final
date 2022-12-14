@@ -57,10 +57,13 @@ nav a:hover{
 
 /* Section Class */
 .section-container{
-    margin: 5rem auto;
+    border: solid 1rem black;
+    margin: 10rem auto;
     text-align: center;
     background-color: gray;
     max-width: 60rem;
+    height: 100%;
+    max-height: 30rem;
 }
 .section-title{
     text-align: center;
@@ -132,28 +135,39 @@ nav a:hover{
 #art-section{
     display: flex;
     flex-wrap: wrap;
+    max-height: 100%;
 }
 #art-section .section-title{
 
 }
 .art-button-container{
     background: yellow;
-    width: 50%;
+    width: 100%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .art-button{
-    padding: 10% 20%;
-    margin: 3rem;
+    padding: 10% 5%;
+    width:100%;
+    max-width: 80%;
+    margin:0 1rem;
     background: blue;
-
 }
 .art-button:hover{
     background: gray;
 }
-.art-img{
-    margin: 0 auto;
+.art-img-container{
+    background: green;
     width: 100%;
-    max-width: 20%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.art-img{
+    padding: 5% 10%;
+    width: 100%;
+    max-width: 50%;
 }
