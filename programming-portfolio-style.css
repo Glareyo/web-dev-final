@@ -4,6 +4,12 @@
 }
 
 
+:root{
+    --sample-code-info-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
 .title-h1{
     text-align: center;
     padding: 3rem 0;
@@ -100,11 +106,23 @@
     border: darkgray solid 0.5rem;
 
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.sample-code-container h3{
-    
+.sample-code-info-container{
+    text-align: center;
+}
+.sample-code-info-container h3{
+    font-family: var(--sample-code-info-font);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.sample-code-info-container p{
+    padding: 0.5rem 0;
 }
 .sample-code-container img{
-
+    max-width: 40rem;
+    width: 100%;
 }
