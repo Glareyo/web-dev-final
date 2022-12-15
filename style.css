@@ -2,7 +2,13 @@
     background-color: darkgray;
     margin: 0;
     padding: 0;
+    
 }
+
+html {
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+  }
 
 :root{
     /* Font for all links */
@@ -75,8 +81,10 @@ nav a:hover{
 .section-container{
     border: solid 1rem black;
     margin: 10rem auto;
+    
     text-align: center;
     background-color: gray;
+
     max-width: 50rem;
     height: 100%;
     max-height: 30rem;
@@ -111,6 +119,7 @@ nav a:hover{
     max-width: 70rem;
     background: slategray;
 }
+
 .info-pic-container{
     max-width: 100%;
     display: flex;
