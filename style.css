@@ -158,10 +158,14 @@ nav a:hover{
     margin:0 1rem;
     background: cyan;
     border: solid blue 1rem;
-    color: var(--link-color);
+    color: blue;
+    text-decoration: none;
+    font-size: 2rem;
 }
 .art-button:hover{
-    background: gray;
+    background: blue;
+    border: solid cyan 1rem;
+    color: cyan;
 }
 
 .art-img-container{
