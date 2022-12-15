@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.portfolio-title{
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: lightgray;
+    border:solid 0.5rem gray    
+}
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    width: 100%;
+}
+.nav-title{
+    padding: 1rem;
+    background: darkgray;
+    border: solid 0.5rem gray;
+    text-align: center;
+}
+.nav-links-container{
+    display: flex;
+}
+.nav-links-container a{
+    background: darkgray;
+    border: solid gray 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.nav-links-container a:hover{
+    background: black;
+    border: solid white 0.5rem;
+    color:lightblue;
+}
+
+
+
+
+.art-sections{
+    margin: 5rem auto;
+    text-align: center;
+    border: solid darkblue 0.5rem;
+
+    max-width: 80rem;
+    background: darkblue;
+    
+
+}
+.art-section-title{
+    padding: 2rem;
+    background: cyan;
+}
+
+.art-section-example-container{
+    margin: 0 auto 4rem auto;
+
+}
+
+
+
+
+.example-title{
+    background: lightskyblue;
+    border-bottom: darkblue solid 0.5rem;
+    border-top: darkblue solid 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.example-descript{
+    color: white;
+
+    padding: 1rem 2rem;
+    font-size: 1rem;
+}
+.example{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.25rem;
+}
+.example img{
+    width: 80%;
+}
