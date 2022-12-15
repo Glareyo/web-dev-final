@@ -13,7 +13,7 @@
 
     --art-title-image: slategray;
 
-    --programming-title-image: slategray;
+    --programming-title-image: url("Images\\html-code-img.png");
     --programming-menu-image: slategray;
 }
 
@@ -69,7 +69,7 @@ nav a:hover{
     margin: 10rem auto;
     text-align: center;
     background-color: gray;
-    max-width: 60rem;
+    max-width: 50rem;
     height: 100%;
     max-height: 30rem;
 }
@@ -77,10 +77,14 @@ nav a:hover{
     text-align: center;
     font-size: 1.5rem;
     width:100%;
-    max-width: 60rem;
-    padding: 10rem 0;
+    max-width: 50rem;
+    padding: 8rem 0;
     border-bottom: 1rem solid;
 }
+
+
+
+
 
 
 
@@ -89,7 +93,6 @@ nav a:hover{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    max-width: 60rem;
     max-height: 100%;
 }
 
@@ -135,6 +138,8 @@ nav a:hover{
 
 
 
+
+
 /* Art Section */
 #art-section{
     display: flex;
@@ -151,10 +156,21 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+}
+.art-descript{
+    margin: 0 auto;
+    padding: 10% 5%;
+    max-width: 100%;
+
+    background: black;
+    color: white;
+    
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 .art-button{
-    padding: 10% 5%;
+    padding: 5%;
     margin:0 1rem;
     background: cyan;
     border: solid blue 1rem;
@@ -184,6 +200,8 @@ nav a:hover{
 
 
 
+
+
 /* Programming section */
 #programming-section{
     display: flex;
@@ -191,7 +209,14 @@ nav a:hover{
     max-height: 100%;
 }
 #programming-section .section-title{
-    background: var(--programming-title-image);
+    font-size: 2rem;
+    color: white;
+    border-color: black;
+    text-decoration: solid;
+
+    background-image: var(--programming-title-image);
+    background-size: 500%;
+    background-position: center;
 }
 #programming-menu-container{
     padding: 20%;
