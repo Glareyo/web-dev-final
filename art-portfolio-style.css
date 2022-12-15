@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: lightblue;
 }
 
 
@@ -80,7 +81,7 @@
 }
 .example-descript{
     color: white;
-
+    background: darkblue;
     padding: 1rem 2rem;
     font-size: 1rem;
 }
@@ -90,5 +91,5 @@
     gap: 0.25rem;
 }
 .example img{
-    width: 80%;
+    width: 100%;
 }
