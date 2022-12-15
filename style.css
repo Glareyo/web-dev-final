@@ -119,15 +119,16 @@ nav a:hover{
 /* Image */
 #about-image-background{
     background-color: cyan;
+
     width:100%;
     max-width: 50%;
     display: flex;
     justify-content: center;
 }
 #about-image-background img{
-    margin: 1rem;
+    margin: 2rem 1rem;
     border: 1rem solid gray;
-    border-radius: 3rem;
+    border-radius: 100%;
 }
 /* Information */
 #information-container{
@@ -167,12 +168,26 @@ nav a:hover{
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+
 #degree-container{
     max-width: 100%;
     width: 100%;
 }
+#degree-container h3{
+    font-size: 3rem;
+    border-bottom: solid black 1rem;
+    border-top: solid black 1rem;
 
+    background: gray;
+    padding: 0.5rem;
+}
+#degree-container p{
+    font-size: 2rem;
+    padding: 4rem 0;
+    background:wheat;
 
+}
 
 
 
