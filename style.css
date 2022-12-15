@@ -6,8 +6,8 @@
 }
 
 html {
+    scroll-behavior:smooth;
     scroll-padding-top: 5rem;
-    scroll-behavior: smooth;
   }
 
 :root{
@@ -124,7 +124,7 @@ nav a:hover{
 .info-pic-container{
     max-width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 /* Image */
 #about-image-background{
@@ -162,7 +162,7 @@ nav a:hover{
 .info-title{
     background-color: slategray;
     width: 100%;
-    padding: 5rem 1.5rem;
+    padding: 5rem 5%;
     font-family: var(--info-title-font);
     font-weight: bold;
     font-size: var(--info-title-font-size);

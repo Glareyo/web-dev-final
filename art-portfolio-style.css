@@ -4,7 +4,9 @@
     background-color: lightblue;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -20,6 +22,19 @@
     flex-direction: column;
     max-width: 30rem;
     width: 100%;
+}
+#back-to-home-link{
+    background: darkgray;
+    border: solid 0.5rem gray;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+#back-to-home-link:hover{
+    background: black;
+    border: solid white 0.5rem;
+    color:lightblue;
 }
 .nav-title{
     padding: 1rem;
@@ -50,7 +65,7 @@
 
 
 .art-sections{
-    margin: 5rem auto;
+    margin: 10rem auto;
     text-align: center;
     border: solid darkblue 0.5rem;
 
