@@ -19,9 +19,15 @@
     top: -1px;
 }
 
+
+
+
 .nav-flex-container{
     display: flex;
     flex-direction: column;
+    
+    
+
     max-width: 20rem;
     width:100%;
     text-align: center;
@@ -73,6 +79,32 @@
 
 
 
-.sample-code-container{
+
+
+
+/* Rest of the containers */
+.sample-code-section{
+    margin: 5rem auto;
+    text-align: center;
+    max-width: 60rem;
+}
+.sample-code-title{
     margin: 0 auto;
+    padding: 1rem 3rem;
+
+    background: lightgray;
+    border: solid 0.5rem gray;
+}
+.sample-code-container{
+    background: lightgray;
+    border: darkgray solid 0.5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+.sample-code-container h3{
+    
+}
+.sample-code-container img{
+
 }

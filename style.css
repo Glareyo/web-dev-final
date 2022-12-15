@@ -37,8 +37,9 @@ header h1{
 
 
 nav{
-    position: sticky;
+    
     /* For the sticky position */
+    position: sticky;
     top: -1px;
 
     background-color: gray;
