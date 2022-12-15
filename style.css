@@ -198,4 +198,12 @@ nav a:hover{
     padding: 5% 25%;
     border:solid black 1rem;
     background: gray;
+    color: cyan;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.program-button:hover{
+    border: solid 1rem orangered;
+    background: black;
+    color: orangered;
 }
