@@ -7,6 +7,14 @@
 :root{
     /* Font for all links */
     --link-font: 'Courier New', Courier, monospace;
+    --link-color: black;
+
+
+
+    --art-title-image: slategray;
+
+    --programming-title-image: slategray;
+    --programming-menu-image: slategray;
 }
 
 
@@ -68,10 +76,10 @@ nav a:hover{
 .section-title{
     text-align: center;
     font-size: 1.5rem;
-    background-color: red;
     width:100%;
     max-width: 60rem;
-    padding: 1rem 0;
+    padding: 10rem 0;
+    border-bottom: 1rem solid;
 }
 
 
@@ -82,10 +90,11 @@ nav a:hover{
     flex-direction: row-reverse;
     flex-wrap: wrap;
     max-width: 60rem;
+    max-height: 100%;
 }
 
 #about-section .section-title{
-    
+    background: slategray;
 }
 
 #about-image-background{
@@ -121,12 +130,6 @@ nav a:hover{
     max-width: 100%;
     width: 100%;
 }
-#degree-container h3{
-
-}
-#degree-container p{
-    
-}
 
 
 
@@ -139,7 +142,7 @@ nav a:hover{
     max-height: 100%;
 }
 #art-section .section-title{
-
+    background: var(--art-title-image);
 }
 .art-button-container{
     background: yellow;
@@ -152,22 +155,13 @@ nav a:hover{
 }
 .art-button{
     padding: 10% 5%;
-    width:100%;
-    max-width: 80%;
     margin:0 1rem;
-    background: blue;
+    background: cyan;
+    border: solid blue 1rem;
+    color: var(--link-color);
 }
 .art-button:hover{
     background: gray;
-}
-#art-button-2d:hover{
-
-}
-.art-button-container .art-button:hover ~ .art-img-container{
-    background-color: white;
-}
-#art-button-3d:hover{
-    
 }
 
 .art-img-container{
@@ -188,12 +182,20 @@ nav a:hover{
 
 /* Programming section */
 #programming-section{
-
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
 }
 #programming-section .section-title{
-    width: 60rem;
+    background: var(--programming-title-image);
 }
-#programming-button-container{
+#programming-menu-container{
+    padding: 20%;
+    background: var(--programming-menu-image);
 }
+
 .program-button{
+    padding: 5% 25%;
+    border:solid black 1rem;
+    background: gray;
 }
