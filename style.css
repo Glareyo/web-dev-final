@@ -1,5 +1,5 @@
 *{
-    background-color: purple;
+    background-color: darkgray;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@
 
     --art-title-image: slategray;
 
-    --programming-title-image: url("Images\\html-code-img.png");
+    --programming-image: url("Images\\programming-title-img.png");
     --programming-menu-image: slategray;
 }
 
@@ -60,6 +60,12 @@ nav a:hover{
     background-color: darkgray;
 }
 /* Header and Navigation */
+
+
+
+
+
+
 
 
 
@@ -140,6 +146,10 @@ nav a:hover{
 
 
 
+
+
+
+
 /* Art Section */
 #art-section{
     display: flex;
@@ -202,6 +212,11 @@ nav a:hover{
 
 
 
+
+
+
+
+
 /* Programming section */
 #programming-section{
     display: flex;
@@ -214,13 +229,16 @@ nav a:hover{
     border-color: black;
     text-decoration: solid;
 
-    background-image: var(--programming-title-image);
-    background-size: 500%;
+    background-image: var(--programming-image);
+    background-size: 450%;
     background-position: center;
 }
 #programming-menu-container{
     padding: 20%;
-    background: var(--programming-menu-image);
+
+    background: var(--programming-image);
+    background-position: center;
+    background-size: 120%;
 }
 
 .program-button{
